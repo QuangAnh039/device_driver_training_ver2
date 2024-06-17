@@ -1,0 +1,1 @@
+cmd_/home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/Module.symvers := sed 's/\.ko$$/\.o/' /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modules.order | scripts/mod/modpost -m -a  -o /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/Module.symvers -e -i Module.symvers -i /usr/src/linux-headers-5.15.0-107-generic/Module.symvers   -T -

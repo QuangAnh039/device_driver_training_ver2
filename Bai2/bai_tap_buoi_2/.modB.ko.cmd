@@ -1,0 +1,1 @@
+cmd_/home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modB.ko := ld -r  -m elf_x86_64 -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modB.ko /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modB.o /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modB.mod.o;  true
