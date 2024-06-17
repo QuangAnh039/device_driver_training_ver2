@@ -1,1 +1,0 @@
-cmd_/home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modules.order := {   echo /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modA.ko;   echo /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modB.ko; :; } | awk '!x[$$0]++' - > /home/quanganh/training_linux_embedded_v2/Bai2/bai_tap_buoi_2/modules.order
