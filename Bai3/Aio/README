@@ -1,0 +1,3 @@
+khi doc 1 file co 2 kieu doc
+- synchronize: read, write binh thuong, ham doc xong roi tra ve gia tri con tro file
+- asynchronize: aio_read la viec doc 1 file khong can phai tuan tu tu tren xuong duoi ma song song 
