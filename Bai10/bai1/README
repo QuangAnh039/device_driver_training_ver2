@@ -1,0 +1,2 @@
+Viết ứng dụng chat client – server trên cùng một máy tính. Sử dụng mmap để giao tiếp. Các đoạn chat sau khi thoát ứng dụng sẽ được lưu lại trên file.
+Gợi ý: Nên define cố định độ dài mỗi lần ghi vào shared memory.

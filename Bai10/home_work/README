@@ -1,0 +1,7 @@
+Viết chương trình giả lập mô hình client server. Giữa 2 chương trình chia sẻ chung nhau 1 vùng nhớ (vùng nhớ data được tạo ra bởi server). Data được define theo struct sau:
+Struct data {
+	char name[25];
+	int tuoi;
+}
+Đa số thời gian, server sẽ ngủ. Client sẽ yêu cầu user nhập thông tin tên, tuổi. Sau khi nhập xong client sẽ gửi signal để wake up server dậy. Server khi tỉnh dậy sẽ lấy thông tin từ share memory và ghi vào log file.
+Server và client được viết trên 2 file C riêng, không sử dụng fork.
